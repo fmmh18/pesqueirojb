@@ -1,17 +1,10 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>.::PESQUEIRO &amp; POUSADA JB::. </title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
-<!--
-Newline Template
-http://www.templatemo.com/tm-503-newline
--->
+  
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -23,25 +16,15 @@ http://www.templatemo.com/tm-503-newline
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <style type="text/css">
- 
-.style1 {
-	color: #FFBB05;
-	font-size: smaller;
-}
-body {
-	background-color: #FFFFFF;
-	background-image: url();
-}
-.style2 {font-size: 36px}
- 
-</style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <body>
 
         <div class="overlay"></div>
         <section class="top-part">
-            <img src="img/placa-jb-1.jpg" style="background-size: cover;height:100%"/>
+        <video width="320" height="240" autoplay muted loop>
+              <source src="videos/pousada.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>  
         </section>
         
         <section class="cd-hero">
@@ -323,13 +306,13 @@ Email: jbscorreadacosta92@gmail.com</em>
     </div>
   </div>
 </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script type="text/javascript">
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
 
 $(document).ready(function() {
     $('#modalExemplo').modal('show');
